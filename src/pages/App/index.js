@@ -31,7 +31,7 @@ function App() {
       <div>
         <StoryStore>
           <Routes>
-            <Route path="/aimshig" element={<Home />} />
+            <Route path="/horror" element={<Home />} />
 
             <Route
               path="/story"

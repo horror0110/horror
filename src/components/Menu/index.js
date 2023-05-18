@@ -6,7 +6,7 @@ const Menu = (props) => {
   return (
     <div className={css.Menu}>
       <ul>
-        <Menuitem to="/aimshig">Нүүр</Menuitem>
+        <Menuitem to="/horror">Нүүр</Menuitem>
         <Menuitem to="/story">Болсон явдал унших</Menuitem>
         <Menuitem to="/video">Видео</Menuitem>
         <Menuitem to="/feedback">Санал хүсэлт</Menuitem>

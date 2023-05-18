@@ -1,0 +1,29 @@
+.StoryDetail {
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(../../assets/detail.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100wh;
+    height: 100%;
+    
+    color: white;
+    padding: 2rem;
+
+}
+.Detail {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+
+}
+
+.Author {
+font-weight: bold;
+color: teal;
+margin: 2rem 0;
+}

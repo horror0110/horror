@@ -29,6 +29,9 @@
   }
   
   @media(max-width: 500px){
+    .MenuItem {
+      width: 100%;
+    }
     .MenuItem li a{
       text-decoration: none;
       color: black;
