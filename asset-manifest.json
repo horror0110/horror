@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/aimshig/static/css/main.96dbb593.css",
+    "main.js": "/aimshig/static/js/main.62f7551f.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/aimshig/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/tyt_holodno-EYFtgBPLQ1Q-unsplash.jpg": "/aimshig/static/media/tyt_holodno-EYFtgBPLQ1Q-unsplash.86c47d5ae4890fa870ce.jpg",
+    "static/media/forest.jpg": "/aimshig/static/media/forest.186e4e47f7ac05d5807f.jpg",
+    "static/media/tyt_holodno-8Lc3puXlM-A-unsplash.jpg": "/aimshig/static/media/tyt_holodno-8Lc3puXlM-A-unsplash.4ed7b428923a16268318.jpg",
+    "static/media/home.jpg": "/aimshig/static/media/home.485b5441005c97af706e.jpg",
+    "static/media/redlogo.png": "/aimshig/static/media/redlogo.7974ae463a9b15dece72.png",
+    "index.html": "/aimshig/index.html",
+    "main.96dbb593.css.map": "/aimshig/static/css/main.96dbb593.css.map",
+    "main.62f7551f.js.map": "/aimshig/static/js/main.62f7551f.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/aimshig/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96dbb593.css",
+    "static/js/main.62f7551f.js"
+  ]
+}
