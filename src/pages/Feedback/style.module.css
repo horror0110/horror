@@ -63,5 +63,21 @@
     animation: disappear 3s linear 3s forwards;
     color: teal;
   }
+
+  @media(max-width: 500px){
+    @keyframes disappear {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    
+    #disappearingText {
+      animation: disappear 5s linear 5s forwards;
+      color: teal;
+    }
+  }
   
   

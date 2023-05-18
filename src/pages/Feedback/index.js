@@ -4,36 +4,39 @@ import styles from "./style.module.css";
 
 function FeedbackForm() {
   const [feedback, setFeedback] = useState("");
-  const [bottomText, setBottomText] = useState("");
-
+  const [bottomText, setBottomText] = useState([]);
 
   const handleInputChange = (event) => {
     setFeedback(event.target.value);
 
   };
 
+
+
   const handleSubmit = (event) => {
     event.preventDefault();
-
+  
     if (feedback.trim() === "") {
-      return; 
+      return;
     }
-
-
+  
     const message = {
       message: feedback,
     };
-
+  
     axios
       .post(
         "https://horrorstory-71e65-default-rtdb.firebaseio.com/messages.json",
         message
       )
-      .then((response) => setBottomText("Таны саналыг хүлээн авлаа баярлалаа"))
+      .then((response) => {
+        setBottomText((prevNotifications) => [
+          ...prevNotifications,
+          "Таны саналыг хүлээн авлаа баярлалаа",
+        ]);
+      })
       .catch((err) => console.log(err));
-
-      
-
+  
     setFeedback("");
   };
 
@@ -44,9 +47,9 @@ function FeedbackForm() {
   };
 
   return (
-    <div className={styles.FormContainer}>
-      <form onSubmit={handleSubmit} className={styles.feedbackForm}>
-        <label className={styles.feedbackLabel}>
+<div className={styles.FormContainer}>
+  <form onSubmit={handleSubmit} className={styles.feedbackForm}>
+  <label className={styles.feedbackLabel}>
           Санал хүсэлтээ бичнэ үү
           <textarea
             className={styles.feedbackInput}
@@ -60,10 +63,16 @@ function FeedbackForm() {
           Submit
         </button>{" "}
         <br /> <br />
-        <div id={styles.disappearingText} >{bottomText}</div>
-        
-      </form>
+    <div>
+      {bottomText.map((text, index) => (
+        <div key={index} id={styles.disappearingText}>
+          {text}
+        </div>
+      ))}
     </div>
+  </form>
+</div>
+
   );
 }
 
