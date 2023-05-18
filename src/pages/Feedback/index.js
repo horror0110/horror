@@ -60,7 +60,7 @@ function FeedbackForm() {
           />
         </label>
         <button type="submit" className={styles.submitButton}>
-          Submit
+           илгээх
         </button>{" "}
         <br /> <br />
     <div>

@@ -17,7 +17,7 @@ const Video = (props) => {
       })
       .map((el) => (
         <Link key={el.name}   className={css.Griditem} >
-         <ReactPlayer url={el.video} controls={true} width={"300px"} />
+         <ReactPlayer url={el.video} controls={true} width={"250px"} />
           <p>{el.name}</p>
          <div style={{color: "teal"}}>{el.createdDate}</div>
         </Link>
