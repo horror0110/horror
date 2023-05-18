@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/horror/static/css/main.e1f323f2.css",
-    "main.js": "/horror/static/js/main.2b31a426.js",
+    "main.css": "/horror/static/css/main.07153237.css",
+    "main.js": "/horror/static/js/main.4c595163.js",
     "static/js/787.c4e7f8f9.chunk.js": "/horror/static/js/787.c4e7f8f9.chunk.js",
     "static/media/tyt_holodno-EYFtgBPLQ1Q-unsplash.jpg": "/horror/static/media/tyt_holodno-EYFtgBPLQ1Q-unsplash.86c47d5ae4890fa870ce.jpg",
     "static/media/forest.jpg": "/horror/static/media/forest.186e4e47f7ac05d5807f.jpg",
@@ -11,12 +11,12 @@
     "static/media/charlesdeluvio-pcZvxrAyYoQ-unsplash.jpg": "/horror/static/media/charlesdeluvio-pcZvxrAyYoQ-unsplash.f1a193d4807e4abfed1a.jpg",
     "static/media/redlogo.png": "/horror/static/media/redlogo.7974ae463a9b15dece72.png",
     "index.html": "/horror/index.html",
-    "main.e1f323f2.css.map": "/horror/static/css/main.e1f323f2.css.map",
-    "main.2b31a426.js.map": "/horror/static/js/main.2b31a426.js.map",
+    "main.07153237.css.map": "/horror/static/css/main.07153237.css.map",
+    "main.4c595163.js.map": "/horror/static/js/main.4c595163.js.map",
     "787.c4e7f8f9.chunk.js.map": "/horror/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1f323f2.css",
-    "static/js/main.2b31a426.js"
+    "static/css/main.07153237.css",
+    "static/js/main.4c595163.js"
   ]
 }
