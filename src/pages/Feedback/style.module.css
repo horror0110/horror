@@ -1,11 +1,32 @@
+.FormContainer {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(../../assets/charlesdeluvio-pcZvxrAyYoQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100wh;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
 .feedbackForm {
-    width: 400px;
-    margin: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 30%;
+
   }
   
   .feedbackLabel {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    color: #ff0800;
   }
   
   .feedbackInput {
@@ -13,17 +34,34 @@
     height: 100px;
     padding: 5px;
     font-size: 16px;
+    border: 4px solid #800000;
+    background: black;
+    color: #ff0800;
   }
   
   .submitButton {
     padding: 8px 16px;
-    background-color: #4caf50;
+    background-color: #800000;
     color: white;
     border: none;
     cursor: pointer;
   }
   
   .submitButton:hover {
-    background-color: #45a049;
+    background-color: #c80815;
   }
+  @keyframes disappear {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  #disappearingText {
+    animation: disappear 3s linear 3s forwards;
+    color: teal;
+  }
+  
   
