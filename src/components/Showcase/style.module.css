@@ -1,0 +1,73 @@
+.Showcase {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100wh;
+    height: 100vh;
+    color: white;
+    display: flex;
+    z-index: 100;
+}
+.ShowcaseText  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 100;
+    position: fixed;
+    top: 40%;
+    left: 10%;
+}
+
+.ShowcaseText h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+.ShowcaseText p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.ShowcaseText a {
+    background: #740404;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.7s ease;
+
+}
+.ShowcaseText a:hover {
+    background: #8a0303;
+}
+.Button {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-between;
+}
+
+@media(max-width: 500px){
+    .ShowcaseText  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        z-index: 100;
+        position: fixed;
+        top: 20%;
+        left: 0;
+        z-index: 100;
+        margin: 1rem;
+    }
+    .Button {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        justify-content: space-between;
+        height: 100px;
+        
+    }
+}

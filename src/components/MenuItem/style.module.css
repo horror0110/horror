@@ -1,0 +1,49 @@
+@media(min-width: 500px){
+    .MenuItem li a{
+      text-decoration: none;
+      color: white;
+      padding: 0.5rem 1rem;
+    }
+    .MenuItem li {
+        padding: 0.3rem 1rem;
+    }
+    .MenuItem li a:hover {
+      background: #740404;
+      padding: 1rem;
+  
+    }
+    .Default li a{
+      text-decoration: none;
+      color: white;
+      padding: 0.5rem 1rem;
+      background: black;
+    }
+    .Default li {
+        padding: 0.3rem 1rem;
+    }
+    .Default li a:hover {
+      padding: 1rem;
+  
+    }
+   
+  }
+  
+  @media(max-width: 500px){
+    .MenuItem li a{
+      text-decoration: none;
+      color: black;
+      padding: 0.3rem 1rem;
+      border-bottom: 1px solid gray;
+    }
+    .MenuItem li {
+        padding: 0.7rem 1rem;
+    }
+  
+    
+  }
+  
+  
+  
+  
+  
+  

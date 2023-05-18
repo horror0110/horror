@@ -1,0 +1,16 @@
+@media(min-width: 500px){
+    .Menu ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+}
+
+@media(max-width: 500px){
+    .Menu ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 1rem ;
+    }
+}

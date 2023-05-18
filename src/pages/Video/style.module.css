@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.StoryList {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/tyt_holodno-8Lc3puXlM-A-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100wh;
+  height: 100%;
+  }
+  
+  .Griditem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+    text-decoration: none;
+    color: #fff;
+  }
+  .Griditem:hover {
+    transform: scale(1.05);
+  }
+
+  
+  p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 500px) {
+    .StoryList {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100wh;
+    height: 100%;
+    }
+    
+    .Griditem {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+      transition: transform 0.3s;
+      text-decoration: none;
+    }
+    .Griditem:hover {
+      transform: scale(1.05);
+    }
+  
+    
+    p {
+      margin-top:  10px 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+  
