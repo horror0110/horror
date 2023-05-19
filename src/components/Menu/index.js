@@ -9,6 +9,7 @@ const Menu = (props) => {
         <Menuitem to="/horror">Нүүр</Menuitem>
         <Menuitem to="/story">Болсон явдал унших</Menuitem>
         <Menuitem to="/video">Видео</Menuitem>
+        <Menuitem to="/insertStory">Болсон явдал илгээх</Menuitem>
         <Menuitem to="/feedback">Санал хүсэлт</Menuitem>
       </ul>
     </div>

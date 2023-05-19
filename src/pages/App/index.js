@@ -10,6 +10,8 @@ import Story from "../Story";
 import StoryDetail from "../StoryDetail";
 import Video from "../Video";
 import FeedbackForm from "../Feedback";
+import InsertStory from "../InsertStory";
+
 
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
             <Route path="/storyDetail" element={<StoryDetail />} />
             <Route path="/video" element={<Video searchValue={searchValue} />} />
             <Route path="/feedback" element={<FeedbackForm />} />
+            <Route path="/insertStory" element={<InsertStory />} />
+            
           </Routes>
         </StoryStore>
       </div>
