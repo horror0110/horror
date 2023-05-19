@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/horror/static/css/main.07153237.css",
-    "main.js": "/horror/static/js/main.11a4a7fa.js",
+    "main.css": "/horror/static/css/main.cc5fcd8c.css",
+    "main.js": "/horror/static/js/main.a61b29a6.js",
     "static/js/787.c4e7f8f9.chunk.js": "/horror/static/js/787.c4e7f8f9.chunk.js",
     "static/media/pexels-sam-pineda-3104175.jpg": "/horror/static/media/pexels-sam-pineda-3104175.0ff7b213c3c27865e286.jpg",
     "static/media/tyt_holodno-EYFtgBPLQ1Q-unsplash.jpg": "/horror/static/media/tyt_holodno-EYFtgBPLQ1Q-unsplash.86c47d5ae4890fa870ce.jpg",
@@ -9,15 +9,17 @@
     "static/media/tyt_holodno-8Lc3puXlM-A-unsplash.jpg": "/horror/static/media/tyt_holodno-8Lc3puXlM-A-unsplash.4ed7b428923a16268318.jpg",
     "static/media/home.jpg": "/horror/static/media/home.485b5441005c97af706e.jpg",
     "static/media/detail.jpg": "/horror/static/media/detail.3b167365b0c41123d52a.jpg",
+    "static/media/peter-herrmann-d-8_X7Ffxj4-unsplash.jpg": "/horror/static/media/peter-herrmann-d-8_X7Ffxj4-unsplash.ead572301f066bdfe434.jpg",
     "static/media/charlesdeluvio-pcZvxrAyYoQ-unsplash.jpg": "/horror/static/media/charlesdeluvio-pcZvxrAyYoQ-unsplash.f1a193d4807e4abfed1a.jpg",
+    "static/media/room.jpg": "/horror/static/media/room.b9ab2eb8bd609345755e.jpg",
     "static/media/redlogo.png": "/horror/static/media/redlogo.7974ae463a9b15dece72.png",
     "index.html": "/horror/index.html",
-    "main.07153237.css.map": "/horror/static/css/main.07153237.css.map",
-    "main.11a4a7fa.js.map": "/horror/static/js/main.11a4a7fa.js.map",
+    "main.cc5fcd8c.css.map": "/horror/static/css/main.cc5fcd8c.css.map",
+    "main.a61b29a6.js.map": "/horror/static/js/main.a61b29a6.js.map",
     "787.c4e7f8f9.chunk.js.map": "/horror/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07153237.css",
-    "static/js/main.11a4a7fa.js"
+    "static/css/main.cc5fcd8c.css",
+    "static/js/main.a61b29a6.js"
   ]
 }
